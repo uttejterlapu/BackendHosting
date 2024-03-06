@@ -4,8 +4,6 @@ const app = express();
 
 const PORT = 5001;
 
-
-
 app.get("/",(req,res)=>{
     res.send("Heeloo")
 })
@@ -16,5 +14,4 @@ app.get("/login",(req,res)=>{
 app.listen(PORT,()=>{
     console.log("Listing to PORT " , PORT);
 })
-
 
